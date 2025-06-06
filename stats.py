@@ -19,8 +19,3 @@ def get_char_apps(file_content):
 def sort(my_dict):
     apps_count_sort = dict(sorted(my_dict.items(), key=lambda item: item[1], reverse=True))
     return apps_count_sort
-
-
-#sorted_dict_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
-
-    
